@@ -1,19 +1,23 @@
 /* Common css styles */
 body{
-    margin: 0 50px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
 /* Nav bar styles */
 
+.header{
+    background-color: #FFF8F3;
+}
 nav{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
-nav h3{
+nav h2{
     font-size: 45px;
     font-weight: 800;
 }
@@ -45,4 +49,12 @@ nav li a{
     border-radius: 5px;
     border: 0;
     padding: 15px 35px;
+}
+/* Banner styles added */
+
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 50px 50px 50px 200px;
+    justify-content: space-between;
 }
