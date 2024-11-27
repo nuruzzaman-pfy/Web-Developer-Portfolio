@@ -23,6 +23,7 @@ ul, p, h1, h2, h3{
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+    padding-top: 30px;
 }
 nav{
     display: flex;
@@ -136,9 +137,38 @@ nav li a{
     margin-bottom: 20px;
 }
 .what_section p{
+    color: #757575;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     padding: 0 110px;
     margin-bottom: 20px;
+}
+/* skils style start */
+
+.skils{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    text-align: left;
+}
+.skils .skill{
+   
+    padding: 30px 33px 30px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background-color: #fff;
+}
+.skils .skill_title{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 35px 0 20px;
+}
+.skils .skill_description{
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding-right: 3px;
+    color: #757575;
 }
